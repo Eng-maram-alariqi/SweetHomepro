@@ -1,0 +1,204 @@
+/* 
+
+ Reset some default styles for better consistency 
+body, h1, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;  Background color for the entire page 
+    margin: 20px;
+}
+
+h1 {
+    background: rgba(0, 0, 0, 0.7);
+     Background color for the page title 
+    color: #fff;  Text color for the page title 
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+ margin-left: 5%; 
+    width: 80%;
+    border-collapse: separate;
+    margin-top: 20px;
+    background:  #ffffff;
+    
+}
+
+ Style for table headers 
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+ Style for table rows 
+tr:nth-child(even) {
+    background-color: #f2f2f2;  Alternate row background color 
+}
+
+ Style for table cells 
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+ Style for Update and Delete buttons 
+ Style for Update and Delete buttons 
+button[type="submit"] {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2980b9 0%, #3498db 100%);
+}
+
+ Style for the container 
+.image-container {
+    width: 200px;  Set the width to your desired value 
+    height: 150px;  Set the height to your desired value 
+    overflow: hidden;  Hide overflow images 
+    position: relative;  Enable absolute positioning for child images 
+}
+
+ Style for individual images 
+.property-image {
+    width: 100%;  Ensure images fill the container width 
+    height: auto;  Automatically adjust height 
+    position: absolute;  Position images absolutely within the container 
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+        Slideshow container 
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: auto;
+}
+  
+  
+  */
+  
+  
+          body {
+            background-color: #f7f7f7;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+          padding-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .btn-success {
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+            margin-bottom: 10px;
+        }
+        .btn-success:hover {
+            background-color: #117a8b;
+            border-color: #117a8b;
+        }
+        .btn-danger {
+           background-color: #28a745; /* Green color */
+            border-color: #28a745; /* Green color */
+        }
+        .btn-danger:hover {
+            background-color: #b32736;
+            border-color: #b32736;
+        }
+        
+        
+/*         .btn-info {
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+            padding: 100px;
+        }
+        .btn-info:hover {
+            background-color: #117a8b;
+            border-color: #117a8b;
+        }*/
+        
+        tr {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+  select[name="transportModes"] {
+ visibility: hidden;   
+    display: none;
+ 
+  }

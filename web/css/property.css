@@ -1,0 +1,125 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: slategray;
+     text-align: center;
+            margin-bottom: 40px;
+}
+
+/* Style the form container */
+form {
+    max-width: 600px;
+    margin: 80px auto;
+    padding:20px 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style form labels and inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the radio buttons */
+input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+   
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the error messages */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Style the success message */
+.success {
+    color: green;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+/* Add this CSS in a <style> tag or an external CSS file */
+/*button[type="button"] {
+    background-color: #4CAF50;  Green background color 
+    color: white;  White text color 
+    padding: 10px 20px;  Padding inside the button 
+    border: none;  Remove button border 
+    border-radius: 5px;  Rounded corners 
+    cursor: pointer;  Change cursor to pointer on hover 
+    font-size: 16px;  Font size 
+    transition: background-color 0.3s ease;  Smooth transition for background color 
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;  Darker green color on hover 
+}*/
+
+button[type="button"] {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+button[type="button"]:hover {
+    background: linear-gradient(to bottom, #2980b9 0%, #3498db 100%);
+}
+
+       .btn-success {
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+            margin-bottom: 10px;
+        }
+        .btn-success:hover {
+            background-color: #117a8b;
+            border-color: #117a8b;
+        }
