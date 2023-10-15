@@ -687,7 +687,9 @@ response.sendRedirect("PropertyListingsServlet");
 
             // Save the image to the directory
 //            String appPath = getServletContext().getRealPath("/").replace("\\", "/");
-            String imageDirectory =  "C:/Users/lenovo/Documents/NetBeansProjects/SweetHomepro/web/image/";
+//            String imageDirectory =  "C:/Users/lenovo/Documents/NetBeansProjects/SweetHomepro/web/image/";
+              String imageDirectory =  "H:/laravelProjects/second/SweetHomepro/web/image/";
+
             File directory = new File(imageDirectory);
             if (!directory.exists()) {
                 directory.mkdirs(); // Create the directory if it doesn't exist
