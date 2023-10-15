@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Update Property Listing</title>
-        <link rel="stylesheet" type="text/css" href="css/property.css">
+       <link rel="stylesheet" type="text/css" href="css/property.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    
 
 </head>
 <body>
@@ -62,15 +64,16 @@
         
               <!-- Debugging statement to print propertyId -->
 
-<button  onclick="confirmUpdate()" class="btn btn-success">Update</button>
+<button  type="button" onclick="confirmUpdate()" class="btn btn-success" >Update</button>
 
 
         
     </form>
         
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
     
     <script>
         function confirmUpdate() {

@@ -36,7 +36,11 @@
     <div class="container">
         <!-- Display featured properties or other information -->
        
-        <p>Welcome to our Real Estate Website.</p>
+      <form action="SearchServlet" method="GET"  class="search-form">
+<!--        <label for="location">Location:</label>-->
+ <input type="text" id="location" name="location" placeholder="Location , price">
+    <button type="submit">Search</button></span
+    </form>
     </div>
      
      

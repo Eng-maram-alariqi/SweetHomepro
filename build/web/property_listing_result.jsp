@@ -20,14 +20,37 @@
 </head>
 
 <body>
+      <nav>
+      
+  <div class="content">
+      <h2>SweetHome</h2>
+      <h2>SweetHome</h2> 
+  </div>
+ <div class="contact_us">
+ <a href="contact_us.jsp">Contact us</a>
+ 
+  <a href="about-us.jsp">About us</a>
+
+  </div>
+      
+ 
+      
+    <div class="spacer"></div>
+    <a href="register.jsp">Register</a>
+    <a href="login.jsp">Login</a>
+    
+</nav>
     <div class="container mt-4">
         
         <h1 class="text-center">Property Listings</h1>
         <form action="propertyListing.jsp" method="post" enctype="multipart/form-data">
-       
-            <button class="btn btn-info">Insert</button>
+         <button class="btn btn-outline-primary btn-block buttonAdd" data-dismiss="modal">Add
+           <i class="fas fa-plus-square ml-1"></i>
+           <span aria-hidden="true">&plus;</span>
+            </button>
+<!--            <button  class="btn btn-info">Insert</button>-->
         </form>
-        <table class="table table-striped">
+        <table class="table table-striped" table-responsive>
             <thead>
                 <tr>
                     <th>ID</th>
@@ -71,7 +94,7 @@
                             
                             <!-- Update Button -->
                             <form action="update_property.jsp" method="get" enctype="multipart/form-data">
-                                                            <div class="button-container" style="display: none; visibility: hidden;">
+               <div class="button-container" style="display: none; visibility: hidden;">
 
                                 <input type="hidden"  name="propertyId" value="${property.propertyId}">
             <input type="hidden"  name="city" value="${property.city}">
@@ -96,7 +119,7 @@
         
            <input type="hidden" name="furniture" value="${property.furniture}">
            
-           <input type="hidden" name="image" value="${property.imagePaths}">
+           <input type="hidden" name="image">
              
              <input type="hidden" name="paymentMode" value="${property.paymentMode}">
                           <input type="hidden" name="contactDetails" value="${property.contactDetails}">
@@ -116,9 +139,26 @@
                 </c:forEach>
             </tbody>
         </table>
-        <c:if test="${empty propertyListings}">
-            <p>No property listings found.</p>
-        </c:if>
+     <c:if test="${not empty propertyListings}">
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+</c:if>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

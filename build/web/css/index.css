@@ -173,27 +173,22 @@ nav a {
 /* Style the container for the main content */
 .container {
     max-width: 800px;
-    margin: 80px auto;
-    padding: 30px;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    margin: 150px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    text-align: center;
+/*    text-align: end;*/
 
 }
 
-.container h1 {
+/*.container h1 {
     font-size: 32px;
     margin-bottom: 20px;
    
-}
+}*/
 
-.container p {
-    font-size: 18px;
-    line-height: 1.6;
-  
-   
-}
+
 
 /* Style the footer */
 /* Updated footer styles for a sticky footer */
@@ -208,16 +203,80 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
   #section-1 .img-box {
     height: 160px !important;
   }
   #section-3 .img-box {
     height: 250px !important;
   }
-}
+}*/
 
-@media only screen and (max-width: 768px) {
+
+        
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+/*            text-align: center;*/
+        }
+/*        
+        form {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        */
+/*        label {
+            display: block;
+            margin-bottom: 5px;
+            text-align: start;
+        }*/
+        
+
+.search-form{
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center vertically */
+    
+    
+}
+        input[type="text"] {
+            flex: 1; 
+            width: 100%;
+            padding: 10px;
+            margin-right: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: rgba(0,0,0,0.1);   
+        }
+        
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+        
+        button:hover {
+            background-color: #444;
+        }
+
+
+
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 768px) {
   #section-1 .img-box {
     height: 76px;
   }
@@ -245,4 +304,4 @@ footer {
   #section-3 .img-box {
     height: 165px;
   }
-}
+}*/
