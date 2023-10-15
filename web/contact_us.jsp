@@ -11,9 +11,32 @@
     <link rel="stylesheet" type="text/css" href="css/contact_us.css">
 </head>
 <body>
-    <h1>Contact Us</h1>
+    
+         
+  <nav>
+      
+  <div class="content">
+      <h2>SweetHome</h2>
+      <h2>SweetHome</h2> 
+  </div>
+ <div class="contact_us">
+ <a href="contact_us.jsp">Contact us</a>
+ 
+  <a href="about-us.jsp">About us</a>
+
+  </div>
+      
+ 
+      
+    <div class="spacer"></div>
+    <a href="register.jsp">Register</a>
+    <a href="login.jsp">Login</a>
+    
+</nav>
+   
     
     <form action="process_contact.jsp" method="post">
+         <h1>Contact Us</h1>
         <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -31,5 +54,10 @@
         
         <button type="submit">Submit</button>
     </form>
+    
+    
+    <footer>
+    <p>&copy; 2023 SweetHome Real Estate</p>
+</footer>
 </body>
 </html>

@@ -147,6 +147,11 @@
         <img id="modalImage" class="modal-content" alt="Property Image">
     </div>
 
+    
+    <footer>
+    <p>&copy; 2023 SweetHome Real Estate</p>
+</footer>
+    
     <script>
         let slideIndex = 1;
 

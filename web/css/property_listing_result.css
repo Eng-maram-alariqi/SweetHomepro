@@ -1,11 +1,17 @@
 
 
 nav {
-    background-color: rgba(0.5, 0.4, 0, 0.6); /* Transparent black background */
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent black background */
     color: black;
     padding: 10px 0;
     display: flex; /* Use flexbox for layout */
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
+
+
 
  nav div h2 {
     margin: 0;
@@ -122,11 +128,7 @@ h2 {
 .spacer {
     flex: 1;
 }
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 
 
@@ -276,16 +278,36 @@ button[type="submit"]:hover {
   
   
   */
+  body, h1, p {
+    margin: 0;
+    padding: 0;
+}
   
+      body {
+    background-image: url('images/hero-image.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
   
-          body {
-            background-color: #f7f7f7;
-        }
+    color: #333; /* Text color on the background image */
+}
+
+body::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent black background color */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Place it below the content */
+}
         .container {
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         }
         h1 {
             text-align: center;
@@ -344,3 +366,14 @@ td{
     display: none;
  
   }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent black background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

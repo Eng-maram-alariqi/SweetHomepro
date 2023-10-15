@@ -18,9 +18,29 @@
 <body>
     
     
+ 
+  <nav>
+      
+  <div class="content">
+      <h2>SweetHome</h2>
+      <h2>SweetHome</h2> 
+  </div>
+ <div class="contact_us">
+ <a href="contact_us.jsp">Contact us</a>
+ 
+  <a href="about-us.jsp">About us</a>
 
+  </div>
+      
+ 
+      
+    <div class="spacer"></div>
+    <a href="register.jsp">Register</a>
+    <a href="login.jsp">Login</a>
+    
+</nav>
   <div class="form-container"> <!-- Apply the form container style -->
-        <h2>Registration</h2>
+      <h3 class="h2re">Registration</h3>
         <form action="RegistrationServlet" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -41,7 +61,9 @@
     </div>
 
     
-       
+ <footer>
+    <p>&copy; 2023 SweetHome Real Estate</p>
+</footer>
 </body>
 </html>
 

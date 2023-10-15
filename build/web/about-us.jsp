@@ -12,6 +12,28 @@
     <link rel="stylesheet" type="text/css" href="css/about-us.css">
 </head>
 <body>
+    
+         
+  <nav>
+      
+  <div class="content">
+      <h2>SweetHome</h2>
+      <h2>SweetHome</h2> 
+  </div>
+ <div class="contact_us">
+ <a href="contact_us.jsp">Contact us</a>
+ 
+  <a href="about-us.jsp">About us</a>
+
+  </div>
+      
+ 
+      
+    <div class="spacer"></div>
+    <a href="register.jsp">Register</a>
+    <a href="login.jsp">Login</a>
+    
+</nav>
     <header>
         <h1>About Our Estate</h1>
     </header>
@@ -39,6 +61,10 @@
             </div>
         </section>
     </main>
+    
+    <footer>
+    <p>&copy; 2023 SweetHome Real Estate</p>
+</footer>
 </body>
 </html>
 

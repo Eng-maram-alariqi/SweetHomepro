@@ -4,3 +4,13 @@
     Author     : hp
 */
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent black background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

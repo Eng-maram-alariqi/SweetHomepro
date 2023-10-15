@@ -11,7 +11,8 @@
      <link rel="stylesheet"  type="text/css" href="css/index.css">
 </head>
 <body>
-   
+        <div class="background"></div> <!-- Add a new div for the background -->
+
   <nav>
       
   <div class="content">
@@ -32,6 +33,7 @@
     <a href="login.jsp">Login</a>
     
 </nav>
+    
 
     <div class="container">
         <!-- Display featured properties or other information -->
@@ -42,7 +44,15 @@
     <button type="submit">Search</button></span
     </form>
     </div>
-     
+    
+    
+    
+    
+    
+    
+    
+    
+    
      
      
    <footer>
