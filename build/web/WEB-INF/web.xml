@@ -16,6 +16,14 @@
         <servlet-name>PropertyListingsServlet</servlet-name>
         <servlet-class>PropertyListingsServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ProductList</servlet-name>
+        <servlet-class>ProductList</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>product_list</servlet-name>
+        <servlet-class>product_list</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>RegistrationServlet</servlet-name>
         <url-pattern>/RegistrationServlet</url-pattern>
@@ -31,6 +39,14 @@
     <servlet-mapping>
         <servlet-name>PropertyListingsServlet</servlet-name>
         <url-pattern>/PropertyListingsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductList</servlet-name>
+        <url-pattern>/ProductList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>product_list</servlet-name>
+        <url-pattern>/product_list</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
